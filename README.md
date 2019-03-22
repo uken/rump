@@ -65,6 +65,20 @@ $ rump -from redis://127.0.0.1:6969/1 -to redis://127.0.0.1:6379/1
 
 You can find pre-compiled binaries on the [releases](https://github.com/stickermule/rump/releases) page. If you don't see your OS/Arch there, just ask :)
 
+## Development
+
+```
+brew install go
+```
+
+```
+go get -u github.com/garyburd/redigo/redis
+```
+
+```
+./multi-arch.sh 0.0.4
+```
+
 ## Mentions
 
 - [Sticker Mule Blog](https://www.stickermule.com/blog/introducing-rump)
